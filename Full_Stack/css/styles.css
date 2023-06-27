@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(214, 214, 255);
+    height: auto;
+    width: auto;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+hr{
+    border-color: gray;
+    background-color: rgb(224, 228, 231);
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-width: 5px;
+    
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+}
+
+.card img {
+    object-fit: cover;
+    width: max-content;
+}
+
+.content {
+    text-align: start;
+    text-justify: auto;
+}
+
+.edu{
+    border-color: black;
+    table-layout:auto;
+    background-color: white;
+}
+
+img {
+   max-height:max-content;
+   max-width: max-content;
+}
